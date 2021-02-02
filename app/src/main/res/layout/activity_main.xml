@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numbers"
+        android:background="@color/numbers"
+        style="@style/textStyle"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/family_members"
+        android:background="@color/family"
+        style="@style/textStyle"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/colors"
+        android:background="@color/colors"
+        style="@style/textStyle"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phrases"
+        android:background="@color/phrases"
+        style="@style/textStyle"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
